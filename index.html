@@ -60,7 +60,7 @@
     align-items: center;
     padding: 20px 48px;
     background: var(--cream);
-    border-bottom: 0.75px solid var(--cream-mid);
+    b-bottom: 0.75px solid var(--cream-mid);
   }
 
   .nav-mark {
@@ -164,7 +164,7 @@
   .btn {
     display: inline-block;
     padding: 13px 36px;
-    border: 0.75px solid var(--terra);
+    b: 0.75px solid var(--terra);
     color: var(--terra);
     font-family: 'DM Sans', sans-serif;
     font-size: 11px;
@@ -181,7 +181,7 @@
   }
 
   .btn-dark {
-    border-color: var(--espresso);
+    b-color: var(--espresso);
     color: var(--espresso);
   }
 
@@ -259,7 +259,7 @@
   /* AVAILABILITY NOTE — update this as needed */
   .availability-note {
     background: var(--cream-mid);
-    border-left: 2px solid var(--terra);
+    b-left: 2px solid var(--terra);
     padding: 16px 24px;
     margin-bottom: 48px;
     font-size: 14px;
@@ -276,11 +276,11 @@
 
   .menu-category {
     padding: 40px 0;
-    border-top: 0.75px solid var(--cream-mid);
+    b-top: 0.75px solid var(--cream-mid);
   }
 
   .menu-category:nth-child(odd) { padding-right: 48px; }
-  .menu-category:nth-child(even) { padding-left: 48px; border-left: 0.75px solid var(--cream-mid); }
+  .menu-category:nth-child(even) { padding-left: 48px; b-left: 0.75px solid var(--cream-mid); }
 
   .menu-category-name {
     font-family: 'Cormorant Garamond', Georgia, serif;
@@ -641,8 +641,9 @@
 <!-- =============================================
      ORDER SECTION
      ============================================= -->
-<section id="order" style="background: #FAF6EE;">
-    <p class="section-label">How it works</p>
+<div style="background: #FAF6EE; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+<section id="order" style="background: transparent;">    
+  <p class="section-label">How it works</p>
     <h2 class="section-title">Order</h2>
     <div class="section-rule"></div>
     <p style="color: var(--umber); max-width: 520px; line-height: 1.9; margin-bottom: 32px;">
@@ -652,6 +653,7 @@
       Pick up is typically in Alexandria, VA. Location details are shared after order and payment are confirmed. Payment via Venmo or Zelle.
     </p>
 </section>
+</div>
 
 
 <!-- =============================================
